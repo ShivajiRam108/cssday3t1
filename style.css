@@ -1,0 +1,49 @@
+
+.container>img {
+width: 300px;
+/* height: 500px; */
+display: none;
+border-width: 5px;
+border-style: solid;
+margin: 10px;
+transition: all 0.4s ease;
+
+}
+#Bharathi {
+    padding: 10px;
+    border: 0;
+font-size: 22px;
+}
+#Bharathi:hover+img {
+    display: block;
+}
+#Surya {
+    padding: 10px;
+    border: 0;
+    font-size: 22px;
+}
+#Surya:hover+img {
+    display: block;
+}
+#Ram {
+    padding: 10px;
+    border: 0;
+    font-size: 22px;
+}
+#Ram:hover+img {
+    display: block;
+}
+
+#Prabhas {
+    padding: 10px;
+    border: 2px;
+    font-size: 22px;
+}
+#Prabhas:hover+img {
+    display: block;
+}
+.main {
+    width: 330px;
+    border: 2px;
+    margin: 2px;
+}
